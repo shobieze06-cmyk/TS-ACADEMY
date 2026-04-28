@@ -1,0 +1,22 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #1a1c20;
+}
+
+main {
+    background-color: white;
+    max-width: 600px;
+  
+}
+
+.left-side {
+    max-width: 300px;
+}
+
+.right-side {
+    max-width: 300px;
+
+}

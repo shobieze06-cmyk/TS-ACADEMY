@@ -1,0 +1,42 @@
+ html {
+      background-color: rgba(63, 62, 60, 0.753);
+      color: rgb(185, 182, 178);
+    }
+    table {
+      padding: 10px;
+      border-collapse: collapse;
+    }
+
+    th {
+        text-align: left;
+        background-color: black;
+    }
+
+
+    table,
+    th,
+    td {
+      border: 2px solid black;
+      padding: 8px;
+    }
+   
+    th,
+    td {
+      border: 2px solid black;
+      padding: 8px;
+      padding: 10px;
+    }
+
+
+    tr:nth-child(even) {
+        background-color: #2e2d2d;
+    }
+    tr:nth-child(odd){
+        background-color: #eee;
+    }
+   
+caption {
+        text-align: left;
+font-weight: bold;
+color: blanchedalmond;
+    }
