@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="html forms" />
+    <link rel="stylesheet" href="forms.css" />
+    <title>Admission form</title>
+  </head>
+  <body>
+    <img src="WhatsApp Image 2026-02-03 at 5.01.36 AM (1).jpeg" alt="" />
+    <h1>Shobliz's enrollment Form</h1>
+    <form action="register" method="get">
+      <br />
+      <fieldset>
+        <legend>Personal Details</legend>
+        <br />
+        <label for="name">First Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="First name:"
+          placeholder="shobi "
+          required
+        />
+        <br />
+        <br />
+        <label for="name">last Name:</label>
+        <input type="text" id="name" name="last name:" placeholder="eze" />
+        <br />
+        <br />
+        <label for="DOB">Date Of Birth</label>
+        <input
+          type="date"
+          id="DOB"
+          name="Date of birth"
+          placeholder="shobi eze"
+        />
+        <br />
+        <br />
+        <label for="age">Age:</label>
+        <input type="number" name="Age" id="age" /> <br />
+        <br />
+        <label for="Gender">Gender</label> <br />
+        <br />
+        <input type="radio" name="Gender" value="Male" /> Male <br />
+        <br />
+        <input type="radio" name="Gender" value="Female" /> Female <br />
+        <br />
+        <input type="radio" name="Gender" value="Other" /> Other <br />
+        <br />
+
+        <label for="file">upload your photo here </label>
+        <input type="file" name="file" id="upload your photo here" required />
+        <br />
+        <br />
+      </fieldset>
+      <br />
+      <br />
+      <fieldset>
+        <legend>Account info</legend>
+
+        <label for="username">username:</label>
+        <input
+          type="text"
+          id="username"
+          name="username:"
+          placeholder="@Shobliz-11"
+          required
+        />
+        <br />
+        <br />
+        <label for="Email">Email address:</label>
+        <input
+          type="email"
+          id="email"
+          name="email address:"
+          placeholder="shoeze@gmail.com"
+          required
+        />
+        <br />
+        <br />
+
+        <label for="tel">Phone Number:</label>
+        <input
+          type="tel"
+          id="tel"
+          name="phone number"
+          placeholder="+234-000-0000-000"
+        />
+        <br />
+        <br />
+
+        <br />
+        <label for="password">Create password:</label>
+        <input
+          type="password"
+          id="password"
+          name="Create password"
+          minlength="8"
+        />
+        <br />
+        <br />
+        <label for="password">comfirm password:</label>
+        <input
+          type="password"
+          id="password"
+          name="Create password"
+          minlength="8"
+        />
+        <br />
+        <br />
+        <label for="course">Choose your desired course here :</label>
+        <select name="course" id="course">
+          <optgroup label="frontend">
+            <option value="first choice">HTML fundamentals</option>
+            <option value="second ">CSS styling</option>
+            <option value="third ">jAVA Script</option>
+            <option value="foruth">React</option>
+          </optgroup>
+        </select>
+        <br />
+        <br />
+        <label for="message">Your Message:</label><br />
+        <textarea
+          name="message"
+          id="message"
+          rows="5"
+          cols="40"
+          placeholder="write a short bio about yourself here...."
+        ></textarea>
+        <br />
+        <br />
+      </fieldset>
+      <br />
+
+      <label for="checkbox">I agree to Shobliz's terms and condiction</label>
+      <input
+        type="checkbox"
+        id="checkbox"
+        name="i agree to Shobliz's trems and condiction"
+        required
+      />
+      <br />
+
+      <button type="submit">register</button>
+      <button type="reset">clear all</button>
+    </form>
+  </body>
+</html>
